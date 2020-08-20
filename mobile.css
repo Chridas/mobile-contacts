@@ -36,7 +36,7 @@
   }
   
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: whitesmoke;
   }
   
@@ -54,7 +54,7 @@
 
   ::placeholder{
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .fa-search{
@@ -71,7 +71,7 @@
     width: 100%;
     align-items: center;
     padding: 20px;
-    font-size: 1.3em;
+    font-size: 1.9em;
   }
 
   .tryout span{
