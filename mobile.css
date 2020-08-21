@@ -14,7 +14,7 @@
   .container{
     display: flex;
     flex-direction: column;
-    width: 35vw;
+    width: 30vw;
     margin: 0 auto;
     border: 1px solid #f0f0f0;
     box-shadow: 0px 0px 16px rgba(0,0,0,0.2);
@@ -41,7 +41,7 @@
   }
   
   input {
-    width: 28vw;
+    width: 23vw;
     padding: 5px 20px;
     font-size: 1.4em;
     border: 0;
@@ -175,6 +175,16 @@
       width: 35vw;
     }
   }
+
+  @media (min-width: 992px) and (max-width: 1299.98px) {
+    .container{
+     width: 40vw;
+   }
+
+   input{
+     width: 30vw;
+   }
+ }
 
 
   
