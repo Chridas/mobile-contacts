@@ -8,7 +8,7 @@
   
   body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 75%;
+    font-size: 14px;
   }
 
   .container{
@@ -23,7 +23,7 @@
   .mobile {
     display: flex;
     flex-direction: column;
-    background-color: #3c1361;
+    background-color: rgb(34,39,122);
     width: 100%;
     height: 25vh;
     justify-content: center;
@@ -36,7 +36,7 @@
   }
   
   h1 {
-    font-size: 1.6rem;
+    font-size: 1.6em;
     color: whitesmoke;
   }
   
@@ -54,14 +54,14 @@
 
   ::placeholder{
     color: whitesmoke;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .fa-search{
     position: absolute;
     right: 0px;
-    padding: 42px 10px 0px 0px;
-    font-size: 0.8rem;
+    padding: 50px 10px 0px 0px;
+    font-size: 0.8em;
     color: whitesmoke;
   }
   
@@ -71,7 +71,7 @@
     width: 100%;
     align-items: center;
     padding: 20px;
-    font-size: 1.3rem;
+    font-size: 1.3em;
   }
 
   .tryout span{
@@ -102,16 +102,16 @@
   }
   
   .fa-user-circle {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
 
   .fa-phone-alt, .fa-comment-dots{
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
   }
   
   .dark{
-    background-color:#987ab3;
+    background-color: rgba(34,39,122,0.5);
     color: white;
     border-radius: 5px;
     animation: slideIn 3s ease;
@@ -168,7 +168,7 @@
   
   @media (min-width: 768px) and (max-width: 991.98px) {
      .container{
-      width: 45vw;
+      width: 50vw;
     }
 
     input{
